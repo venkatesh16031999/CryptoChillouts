@@ -1,0 +1,2 @@
+# CryptoChillouts
+CryptoChillouts is a blockchain-powered virtual art showcase- Chillouts are unique ERC 721 NFTs hosted on IPFS that represent cute and adorable arts, We thrive to provide a colorful look to the traditional black and white silhouettes. Chillouts holders can participate in exclusive events such as NFT claims, community giveaways, and even more near in the future. Remember, all the Chillouts are cool, but some are cooler than others.
