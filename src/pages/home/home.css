@@ -1,0 +1,481 @@
+.home_wrapper {
+    padding: 30px 80px;
+    padding-bottom: 0px;
+}
+
+.header_wrapper {
+    display: flex;
+    align-items: baseline;
+    border-bottom: 1px solid grey;
+}
+
+.right_header {
+    display: flex;
+}
+
+.link_baseline {
+    align-items: baseline;
+    z-index: 1;
+}
+
+.social_icon_wrapper {
+    display: flex;
+    gap: 20px;
+    z-index: 20;
+}
+
+.opensea_social_icon {
+    min-width: 34px;
+    max-width: 34px;
+    max-height: 25px;
+}
+
+.opensea_social_icon > img {
+    width: 100%;
+}
+
+.social_icon {
+    min-width: 34px;
+    max-width: 40px;
+    max-height: 25px;
+}
+
+.social_icon:first-child {
+    min-width: 40px;
+    max-width: 45px;
+    max-height: 25px;
+    margin-top: -2px;
+}
+
+.social_icon a > img {
+    width: 100%;
+    z-index: 10;
+}
+
+.buy_collection_para {
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.buy_collection_wrapper {
+    display: flex;
+    gap: 10px;
+}
+
+.logo_wrapper {
+    display: none;
+}
+
+.hero_wrapper {
+    padding: 30px 0px;
+}
+
+.backgrounded_para_one {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    background-image: url('https://github.com/venkatesh16031999/CryptoNFT/blob/main/hero_one.png?raw=true');
+    background-position: center;
+    background-position: end center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-font-smoothing: antialiased;
+}
+
+.backgrounded_para_two {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    margin-top: -25px;
+    margin-left: 58px;
+    background-image: url('https://github.com/venkatesh16031999/CryptoNFT/blob/main/hero_two.png?raw=true');
+    background-position: center;
+    background-position: end center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-font-smoothing: antialiased;
+}
+
+.hero_text {
+    line-height: 34px;
+    padding-top: 15px;
+}
+
+.hero_body_wrapper {
+    padding-top: 50px;
+    padding-left: 40px;
+}
+
+.header_right_link_lancher {
+    display: none;
+}
+
+.gallery_wrapper {
+    padding-top: 100px;
+    padding-left: 40px;
+}
+
+.gallery_frame {
+    max-width: 500px;
+    height: auto;
+    background-color: white;
+    padding: 20px;
+    margin-top: 50px;
+    box-shadow: 0 5px 20px rgb(0 0 0 / 10%);
+    border-radius:5px;
+}
+
+.gallery_frame > img {
+    width: 100%;
+    border-radius:25px;
+    box-shadow: rgb(140 152 164 / 25%) 0px 3px 6px 0px;
+}
+
+.gallery_list_wrapper {
+    margin-top: 90px;
+}
+
+.gallery_list {
+    margin-left: -10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+.gallery_list_item {
+    margin: 10px;
+    padding: 0px 0px;
+}
+
+.gallery_list_frame {
+    max-width: 145px;
+    height: auto;
+    background-color: white;
+    padding: 6px;
+    box-shadow: 0 5px 20px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+}
+
+.gallery_list_frame:hover {
+    border: 2px solid rgba(0, 0, 0, 0.486);
+    transition: all 0.2s; 
+    transform: scale(1.1, 1.1);
+}
+
+
+.gallery_active {
+    border: 2px solid rgba(0, 0, 0, 0.486);
+    transition: all 0.2s; 
+    transform: scale(1.1, 1.1);
+}
+
+
+.gallery_list_frame > img {
+    width: 100%;
+    box-shadow: rgb(140 152 164 / 25%) 0px 3px 6px 0px;
+    filter: grayscale(100%);
+    transition: all 0.4s ease-in-out;
+}
+
+.gallery_list_frame > img:hover {
+    width: 100%;
+    box-shadow: rgb(140 152 164 / 25%) 0px 3px 6px 0px;
+    filter: grayscale(0%);
+}
+
+.gallery_list_wrapper {
+    overflow-y: auto;
+    max-height: 500px;
+}
+
+
+/* .hero_image_wrapper {
+    
+} */
+
+.hero_image_item {
+    position: relative;
+    min-width: 650px;
+    max-width: 800px;
+}
+
+.hero_image_item > img{
+    width: 100%;
+    position: absolute;
+    left: 60px;
+    top: -80px;
+    z-index: 1;
+}
+
+.roadmap_wrapper {
+    padding-top: 70px;
+    padding-left: 40px;
+}
+
+.roadmap_list {
+    padding: 60px 0px;
+    padding-left: 60px;
+    padding-bottom: 0px;
+}
+
+.roadmap_item {
+    position: relative;
+    padding-left: 120px;
+    border-left: 1px dashed rgba(0, 0, 0, 0.400);
+    padding-bottom: 50px;
+}
+
+.roadmap_item:last-child {
+    border-left: 0px dashed rgba(0, 0, 0, 0.400);
+}
+
+.roadmap_item_count {
+    position: absolute;
+    top: 0;
+    left: -65px;
+    border: 1px solid rgba(0, 0, 0, 0.400);
+    overflow: hidden;
+    border-radius: 50%;
+    background-image: url('https://github.com/venkatesh16031999/CryptoNFT/blob/main/BG.png?raw=true');
+    background-size: cover;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.roadmap_item_count > img {
+    width: 100%;
+}
+
+
+.comming_soon_wrapper {
+    text-align: center;
+}
+
+
+.comming_soon_item {
+    max-width: 400px;
+    height: auto;
+    padding: 6px;
+}
+
+.comming_soon_item > img {
+    width: 100%;
+}
+
+.footer_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    height: 500px;
+    background-image: url('https://github.com/venkatesh16031999/CryptoNFT/blob/main/Bottom.png?raw=true');
+    background-size: cover;
+    background-position: center;
+    margin-top: -150px;
+}
+
+.copy_right_section {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.header_link_item {
+    font-size: 20px;
+    z-index: 100;
+}
+
+@media only screen and (max-width: 480px) {
+    .home_wrapper {
+        padding: 0px 0px;
+        padding-bottom: 0px;
+    }
+
+    .footer_wrapper {
+        width: 100vw;
+        height: 450px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .header_wrapper {
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid grey;
+        padding: 10px 0px;
+    }
+
+    .hero_text {
+        line-height: 32px;
+        padding-top: 15px;
+    }
+
+    .roadmap_item {
+        padding-left: 40px;
+    }
+
+    .featured_image {
+        text-align: center;
+    }
+
+    .roadmap_wrapper {
+        padding-top: 50px;
+        padding-left: 0px;
+    }
+
+    .roadmap_item_count {
+        left: -34px;
+        width: 60px;
+        height: 60px;
+    }
+
+    .roadmap_list {
+        padding: 20px 0px;
+        padding-left: 34px;
+    }
+
+    .backgrounded_para_one {
+        font-size: 65px;
+        text-align: center;
+    }
+
+    .backgrounded_para_one {
+        font-size: 50px;
+    }
+
+    .backgrounded_para_two {
+        font-size: 50px;
+    }
+    
+    .backgrounded_para_two {
+        font-size: 50px;
+        margin-top: 0px;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .hero_image_wrapper {
+        display: none;
+        z-index: 1;
+    }
+
+    .hero_body_wrapper {
+        text-align: center;
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+
+    .header_right_link {
+        display: none;
+    }
+
+    .buy_collection_wrapper {
+        display: none;
+    }
+    
+    .logo_wrapper {
+        display: flex;
+        gap: 10px;
+        padding-top: 14px;
+        font-weight: bold;
+    }
+
+    .logo_icon {
+        min-width: 30px;
+        max-width: 60px;
+        max-height: 25px;
+        margin-top: -10px;
+    }
+
+    .logo_icon a > img {
+        width: 100%;
+    }
+
+    .header_right_link_lancher {
+        display: inline-block;
+    }
+
+    .gallery_wrapper {
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+
+    .gallery_list_item {
+        margin: 0px;
+        padding: 0px 0px;
+    }
+
+    .gallery_list_wrapper {
+        margin-top: 30px;
+    }
+
+    .gallery_list_frame {
+        margin: 6px;
+        border-radius: 4px;
+        padding: 4px;
+    }
+  }
+
+
+/* .home_wrapper {
+    padding: 10px 20px;
+}
+
+.hero_wrapper {
+    background: linear-gradient(to right, #a165f1 , #6c6cd6);
+    border-radius: 5px;
+    height: 100%;
+    min-height: 500px;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #a165f1 , #6c6cd6);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.social_icons_desktop{
+    margin-top: 10px;
+}
+
+.button {
+    padding: 10px 40px;
+    margin: 0px 5px;
+    background-color: white;
+    border-radius: 5px;
+    border: 3px solid black;
+    color: black;
+    font-weight: 700;
+}
+
+.hero_text_heading {
+    color: white;
+    text-align: center;
+}
+
+.hero_text_description {
+    color: white;
+    padding: 0px 350px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.justify_center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
