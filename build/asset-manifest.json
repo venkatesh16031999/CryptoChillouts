@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/CryptoChillouts/static/css/main.60da16b8.chunk.css",
+    "main.js": "/CryptoChillouts/static/js/main.b542c31e.chunk.js",
+    "main.js.map": "/CryptoChillouts/static/js/main.b542c31e.chunk.js.map",
+    "runtime-main.js": "/CryptoChillouts/static/js/runtime-main.218e9aad.js",
+    "runtime-main.js.map": "/CryptoChillouts/static/js/runtime-main.218e9aad.js.map",
+    "static/css/2.818011ed.chunk.css": "/CryptoChillouts/static/css/2.818011ed.chunk.css",
+    "static/js/2.7d934376.chunk.js": "/CryptoChillouts/static/js/2.7d934376.chunk.js",
+    "static/js/2.7d934376.chunk.js.map": "/CryptoChillouts/static/js/2.7d934376.chunk.js.map",
+    "static/js/3.45d8206d.chunk.js": "/CryptoChillouts/static/js/3.45d8206d.chunk.js",
+    "static/js/3.45d8206d.chunk.js.map": "/CryptoChillouts/static/js/3.45d8206d.chunk.js.map",
+    "index.html": "/CryptoChillouts/index.html",
+    "static/css/2.818011ed.chunk.css.map": "/CryptoChillouts/static/css/2.818011ed.chunk.css.map",
+    "static/css/main.60da16b8.chunk.css.map": "/CryptoChillouts/static/css/main.60da16b8.chunk.css.map",
+    "static/js/2.7d934376.chunk.js.LICENSE.txt": "/CryptoChillouts/static/js/2.7d934376.chunk.js.LICENSE.txt",
+    "static/media/1.33397391.png": "/CryptoChillouts/static/media/1.33397391.png",
+    "static/media/2.3bec5366.png": "/CryptoChillouts/static/media/2.3bec5366.png",
+    "static/media/3.374dff56.png": "/CryptoChillouts/static/media/3.374dff56.png",
+    "static/media/Discord.d5508b54.png": "/CryptoChillouts/static/media/Discord.d5508b54.png",
+    "static/media/Instagram.5b9b2aee.png": "/CryptoChillouts/static/media/Instagram.5b9b2aee.png",
+    "static/media/Logo.34a59577.png": "/CryptoChillouts/static/media/Logo.34a59577.png",
+    "static/media/Shill.087e4a4e.png": "/CryptoChillouts/static/media/Shill.087e4a4e.png",
+    "static/media/Twitter.348001d3.png": "/CryptoChillouts/static/media/Twitter.348001d3.png",
+    "static/media/comming_soon_1.64e82710.png": "/CryptoChillouts/static/media/comming_soon_1.64e82710.png",
+    "static/media/comming_soon_2.64f524f2.png": "/CryptoChillouts/static/media/comming_soon_2.64f524f2.png",
+    "static/media/comming_soon_3.b9c16504.png": "/CryptoChillouts/static/media/comming_soon_3.b9c16504.png",
+    "static/media/opensea.7b0a5fea.png": "/CryptoChillouts/static/media/opensea.7b0a5fea.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.218e9aad.js",
+    "static/css/2.818011ed.chunk.css",
+    "static/js/2.7d934376.chunk.js",
+    "static/css/main.60da16b8.chunk.css",
+    "static/js/main.b542c31e.chunk.js"
+  ]
+}

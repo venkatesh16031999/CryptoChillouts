@@ -11,6 +11,9 @@ import One from '../../images/1.png';
 import Two from '../../images/2.png';
 import Three from '../../images/3.png';
 // import Four from '../../images/4.png';
+import  CommingSoonOne from '../../images/comming_soon_1.png';
+import  CommingSoonTwo from '../../images/comming_soon_2.png';
+import  CommingSoonThree from '../../images/comming_soon_3.png';
 import Logo from '../../images/Logo.png';
 import Opensea from '../../images/opensea.png'
 import './home.css';
@@ -139,13 +142,13 @@ const Home = (props) => {
                             <p>Launch CryptoChillouts art collection. Further moving forward, we are going to staff up and grow out our Social media presence.</p>
                             <p>We will schedule a community giveaway for the first 1k members and for the top active members will get rare Chillouts on each drop.</p>
                             <p>Community is key and we will strive to have one of the best!</p>
-                            <p><b>( September 2021 - present )</b></p>
+                            <p><b>( September 2021 - Present )</b></p>
                         </div>
                         <div className="roadmap_item">
                             <div className="roadmap_item_count"><img src={Two} alt="roadmap two" /></div>
                             <p>Cinematic, weoponized and other cool Chillouts drops. Specialized presale for community memebers.</p>
                             <p>Releasing the plan for Chillouts Art showcase. Community members will get a special access to art showcase which they can use to buy/sell NFTs.</p>
-                            <p><b>( Novemeber 2021 - december 2021 )</b></p>
+                            <p><b>( Novemeber 2021 - December 2021 )</b></p>
                         </div>
                         <div className="roadmap_item">
                             <div className="roadmap_item_count"><img src={Three} alt="roadmap three" /></div>
@@ -173,17 +176,17 @@ const Home = (props) => {
             <Row className="comming_soon_item_wrapper">
                 <Col sm="12" lg="4" md="4">
                     <div className="comming_soon_item">
-                        <img src={HeroShill} alt="art gif" />
+                        <img src={CommingSoonOne} alt="CryptoChillout - comming soon" />
                     </div>
                 </Col>
                 <Col sm="12" lg="4" md="4">
                     <div className="comming_soon_item">
-                        <img src={HeroShill} alt="art gif" />
+                        <img src={CommingSoonTwo} alt="CryptoChillout - comming soon" />
                     </div>
                 </Col>
                 <Col sm="12" lg="4" md="4">
                     <div className="comming_soon_item">
-                        <img src={HeroShill} alt="art gif" />
+                        <img src={CommingSoonThree} alt="CryptoChillout - comming soon" />
                     </div>
                 </Col>
             </Row>
