@@ -267,6 +267,12 @@
     width: 100%;
 }
 
+.comming_soon_center {
+    display: flex;
+    justify-content: center;
+}
+
+
 .footer_wrapper {
     display: flex;
     flex-direction: column;

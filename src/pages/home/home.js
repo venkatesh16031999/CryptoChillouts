@@ -59,7 +59,7 @@ const Home = (props) => {
                     </Link>
                     <div className="logo_wrapper">
                         <div className="logo_icon">
-                            <a href="https://twitter.com/CryptoDevelop10"><img src={Logo} alt="Twitter" /></a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/CryptoDevelop10"><img src={Logo} alt="Twitter" /></a>
                         </div>
                         <p className="buy_collection_para">CryptoChillouts</p>
                     </div>
@@ -71,20 +71,20 @@ const Home = (props) => {
                             <p className="header_link_item"></p>
                         </Col>
                         <Col>
-                            <HashLink style={{ textDecoration: 'none', color: 'black' }} to="/home/#chillouts"><p className="header_link_item">Chillouts</p></HashLink>
+                            <HashLink style={{ textDecoration: 'none', color: 'black' }} to="/home/#chillouts"><p className="header_link_item"><b>Chillouts</b></p></HashLink>
                         </Col>
                         <Col>
-                            <HashLink style={{ textDecoration: 'none', color: 'black' }} to="/home/#roadmap"><p className="header_link_item">Roadmap</p></HashLink>
+                            <HashLink style={{ textDecoration: 'none', color: 'black' }} to="/home/#roadmap"><p className="header_link_item"><b>Roadmap</b></p></HashLink>
                         </Col>
                         <Col className="social_icon_wrapper">
                             <div className="social_icon">
-                                <a href="https://www.instagram.com/cryptodeveloper10/"><img src={Instagram} alt="Instagram" /></a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/cryptodeveloper10/"><img src={Instagram} alt="Instagram" /></a>
                             </div>
                             <div className="social_icon">
-                                <a href="https://twitter.com/CryptoDevelop10"><img src={Twitter} alt="Twitter" /></a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/CryptoDevelop10"><img src={Twitter} alt="Twitter" /></a>
                             </div>
                             <div className="social_icon">
-                                <a href="https://discord.gg/CQJ98Gm4WJ"><img src={Discord} alt="Twitter" /></a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://discord.gg/CQJ98Gm4WJ"><img src={Discord} alt="Twitter" /></a>
                             </div>
                         </Col>
                     </Row>
@@ -174,17 +174,17 @@ const Home = (props) => {
                 </Col>
             </Row>
             <Row className="comming_soon_item_wrapper">
-                <Col sm="12" lg="4" md="4">
+                <Col sm="12" lg="4" md="4" className="comming_soon_center">
                     <div className="comming_soon_item">
                         <img src={CommingSoonOne} alt="CryptoChillout - comming soon" />
                     </div>
                 </Col>
-                <Col sm="12" lg="4" md="4">
+                <Col sm="12" lg="4" md="4" className="comming_soon_center">
                     <div className="comming_soon_item">
                         <img src={CommingSoonTwo} alt="CryptoChillout - comming soon" />
                     </div>
                 </Col>
-                <Col sm="12" lg="4" md="4">
+                <Col sm="12" lg="4" md="4" className="comming_soon_center">
                     <div className="comming_soon_item">
                         <img src={CommingSoonThree} alt="CryptoChillout - comming soon" />
                     </div>
@@ -194,13 +194,13 @@ const Home = (props) => {
                 <Col className="footer_wrapper">
                     <div className="social_icon_wrapper">
                         <div className="social_icon">
-                            <a href="https://www.instagram.com/cryptodeveloper10/"><img src={Instagram} alt="Instagram" /></a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/cryptodeveloper10/"><img src={Instagram} alt="Instagram" /></a>
                         </div>
                         <div className="social_icon">
-                            <a href="https://twitter.com/CryptoDevelop10"><img src={Twitter} alt="Twitter" /></a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/CryptoDevelop10"><img src={Twitter} alt="Twitter" /></a>
                         </div>
                         <div className="social_icon">
-                            <a href="https://discord.gg/CQJ98Gm4WJ"><img src={Discord} alt="Twitter" /></a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://discord.gg/CQJ98Gm4WJ"><img src={Discord} alt="Twitter" /></a>
                         </div>
                     </div>
                     <div className="copy_right_section">
