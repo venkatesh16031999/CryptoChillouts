@@ -115,14 +115,49 @@
     padding-left: 40px;
 }
 
-.gallery_frame {
-    max-width: 500px;
-    height: auto;
+.gallery_frame_wrapper {
     background-color: white;
     padding: 20px;
     margin-top: 50px;
     box-shadow: 0 5px 20px rgb(0 0 0 / 10%);
     border-radius:5px;
+}
+
+.gallery_frame {
+    max-width: 500px;
+    height: auto;
+}
+
+.gallery_buy {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0px 10px;
+    padding-top: 20px;
+}
+
+.gallery_item_name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.gallery_buy_button {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 5px;
+    border: none;
+    padding: 8px 50px;
+    background-color: #2081e2;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.gallery_buy_button:hover {
+    color: white;
+    box-shadow: rgb(140 152 164 / 25%) 0px 3px 6px 0px;
 }
 
 .gallery_frame > img {
@@ -314,6 +349,15 @@
         align-items: center;
         border-bottom: 1px solid grey;
         padding: 10px 0px;
+    }
+
+    .gallery_buy_button {
+        padding: 6px 20px;
+    }
+
+    .gallery_item_name {
+        font-size: 16px;
+        font-weight: bold;
     }
 
     .hero_text {

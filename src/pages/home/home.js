@@ -121,9 +121,21 @@ const Home = (props) => {
                     <div className="featured_image">
                         <h2><b>Featured Chillouts</b></h2>
                     </div>
-                    <div className="gallery_frame">
-                        <img src={activeGalleryItem.gif} alt={activeGalleryItem.name} />
+                    <div className="gallery_frame_wrapper">
+                        <div className="gallery_frame">
+                            <img src={activeGalleryItem.gif} alt={activeGalleryItem.name} />
+                        </div>
+                        <div className="gallery_buy">
+                            <div className="gallery_item_name">{activeGalleryItem.name}</div>
+                            <a className="gallery_buy_button" target="_blank" rel="noopener noreferrer" href={activeGalleryItem.openseaUrl}>
+                                <div className="opensea_social_icon">
+                                    <img src={Opensea} alt="Opensea" />
+                                </div>
+                                Buy
+                            </a>
+                        </div>
                     </div>
+
                 </Col>
                 <Col lg="7" className="gallery_list_wrapper">
                     <div className="gallery_list">
