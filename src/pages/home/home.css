@@ -124,7 +124,7 @@
 }
 
 .gallery_frame {
-    max-width: 500px;
+    max-width: 100%;
     height: auto;
 }
 
