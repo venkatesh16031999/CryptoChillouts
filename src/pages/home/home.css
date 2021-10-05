@@ -139,15 +139,23 @@
 .gallery_item_name {
     font-size: 18px;
     font-weight: bold;
+    flex: 2;
+}
+
+.gallary_buy_button_wrapper {
+    flex: 1;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
 }
 
 .gallery_buy_button {
     display: flex;
     justify-content: center;
     align-items: baseline;
-    gap: 5px;
+    gap: 10px;
     border: none;
-    padding: 8px 50px;
+    padding: 8px 30px;
     background-color: #2081e2;
     color: white;
     font-weight: bold;
@@ -331,6 +339,40 @@
     z-index: 100;
 }
 
+.lootex_background {
+    background-color: #232e65;
+    border: 5px solid black;
+    animation: lootex_buy_animation 1s linear infinite;
+}
+
+.opensea_background {
+    padding-top: 14px;
+}
+
+.logo_buy_wrapper {
+    display: flex;
+    gap: 15px;
+}
+
+.lootex_logo_buy_icon > img{
+    border-radius: 50%;
+}
+
+@keyframes lootex_buy_animation {
+    0% {
+        border: 5px solid black;
+    }
+    30% {
+        border: 5px solid #cd508e;
+    }
+    60% {
+        border: 5px solid #cd508e;
+    }
+    100% {
+        border: 5px solid black;
+    }
+}
+
 @media only screen and (max-width: 480px) {
     .home_wrapper {
         padding: 0px 0px;
@@ -342,6 +384,14 @@
         height: 450px;
         background-size: cover;
         background-position: center;
+    }
+
+    .gallery_buy {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:  10px;
     }
 
     .header_wrapper {

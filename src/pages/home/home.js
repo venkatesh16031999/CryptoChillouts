@@ -15,7 +15,8 @@ import  CommingSoonOne from '../../images/comming_soon_1.png';
 import  CommingSoonTwo from '../../images/comming_soon_2.png';
 import  CommingSoonThree from '../../images/comming_soon_3.png';
 import Logo from '../../images/Logo.png';
-import Opensea from '../../images/opensea.png'
+import Opensea from '../../images/opensea.png';
+import Lootex from '../../images/lootex.jpeg';
 import './home.css';
 
 const Home = (props) => {
@@ -49,14 +50,24 @@ const Home = (props) => {
         <Container fluid>
             <Row className="header_wrapper">
                 <Col md="6" lg="7">
-                    <Link to="/buy" style={{ textDecoration: 'none', color: 'black' }}>
-                    <div className="buy_collection_wrapper">
-                        <div className="opensea_social_icon">
-                            <img src={Opensea} alt="Opensea" />
+                    <div className="logo_buy_wrapper">
+                        <a target="_blank" rel="noopener noreferrer" href="https://lootex.io/stores/crypto-chillouts" style={{ textDecoration: 'none', color: 'black' }}>
+                        <div className="buy_collection_wrapper">
+                            <div className="opensea_social_icon lootex_logo_buy_icon">
+                                <img src={Lootex} alt="Lootex" />
+                            </div>
+                            <p className="buy_collection_para"><b>Buy CryptoChillouts</b></p>
                         </div>
-                        <p className="buy_collection_para"><b>Buy CryptoChillouts</b></p>
+                        </a>
+                        <Link to="/buy" style={{ textDecoration: 'none', color: 'black' }}>
+                        <div className="buy_collection_wrapper">
+                            <div className="opensea_social_icon">
+                                <img src={Opensea} alt="Opensea" />
+                            </div>
+                            <p className="buy_collection_para"><b>Buy CryptoChillouts</b></p>
+                        </div>
+                        </Link>
                     </div>
-                    </Link>
                     <div className="logo_wrapper">
                         <div className="logo_icon">
                             <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/CryptoDevelop10"><img src={Logo} alt="Twitter" /></a>
@@ -126,13 +137,21 @@ const Home = (props) => {
                             <img src={activeGalleryItem.gif} alt={activeGalleryItem.name} />
                         </div>
                         <div className="gallery_buy">
-                            <div className="gallery_item_name">{activeGalleryItem.name}</div>
-                            <a className="gallery_buy_button" target="_blank" rel="noopener noreferrer" href={activeGalleryItem.openseaUrl}>
+                            <div className="gallery_item_name">{activeGalleryItem.name}</div>   
+                            <div className="gallary_buy_button_wrapper">
+                            <a className="gallery_buy_button lootex_background" target="_blank" rel="noopener noreferrer" href='https://lootex.io/stores/crypto-chillouts'>
+                                <div className="opensea_social_icon">
+                                    <img src={Lootex} alt="Lootex" />
+                                </div>
+                                Buy
+                            </a>
+                            <a className="gallery_buy_button opensea_background" target="_blank" rel="noopener noreferrer" href={activeGalleryItem.openseaUrl}>
                                 <div className="opensea_social_icon">
                                     <img src={Opensea} alt="Opensea" />
                                 </div>
                                 Buy
                             </a>
+                            </div>
                         </div>
                     </div>
 
