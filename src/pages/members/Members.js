@@ -61,7 +61,7 @@ const Members = (props) => {
                         <p className={styles.description}>CryptoChillouts membership access are categorized as three levels and to get access for the membership club, user must hold the CryptoChillouts NFTs</p>
                     </div>
                     <div>
-                        <p className={styles.description}><b>Level One</b> - Hold <b>1</b> CryptoChillouts NFT</p>
+                        <p className={styles.description}><b>Level One</b> - Hold <b>3</b> CryptoChillouts NFT</p>
                     </div>
                     <div>
                     <p className={styles.description}><b>Level Two</b> - Hold <b>5</b> CryptoChillouts NFTs</p>
