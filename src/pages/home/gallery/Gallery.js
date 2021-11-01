@@ -68,7 +68,7 @@ const Marketplace = (props) => {
                 </Col>
             </Row>
             <Row className={styles.gallery_wrapper}>
-                <Col lg={5}>
+                <Col lg={5} className={styles.gallery_section_wrapper}>
                     <div className={styles.gallery_frame_wrapper}>
                         <div className={styles.gallery_frame}>
                             <img src={activeGalleryItem.gif} alt={activeGalleryItem.name} />
