@@ -1,0 +1,154 @@
+.hero_wrapper {
+    padding: 80px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero_section_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description_wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 25px;
+}
+
+.hero_image_wrapper {
+    min-width: 500px;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero_image_wrapper > img {
+    width: 100%;
+}
+
+.main_header {
+    font-size: 60px;
+    color: #ffffff;
+    font-weight: 900 !important;
+}
+
+.description {
+    color: #ffffff;
+    font-weight: 300;
+    padding-left: 10px;
+}
+
+.social_links_wrapper {
+    display: flex;
+    align-items: center;
+    margin-left:10px;
+    margin-top: 20px;
+    color: #ffffff;
+    border: 2px solid #2f2350;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #241747;
+}
+
+.social_links {
+    display: flex;
+    gap: 10px;
+    padding-left: 15px;
+}
+
+.total_NFT_wrapper {
+    display: flex;
+    align-items: center;
+    padding-left:10px;
+    color: #ffffff;
+}
+
+.social_links_heading {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.button {
+    padding: 8px;
+    background-color: #312771;
+    border: 2px solid #474071;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight:500;
+}
+
+.button:hover {
+    color: #d14c84;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 767px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .hero_image_wrapper {
+        order: 1;
+        min-width: 350px;
+        max-width: 600px;
+    }
+
+    .description_wrapper {
+        order: 2;
+    }
+
+    .main_header {
+        font-size: 40px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .hero_wrapper {
+        padding: 40px 0px;
+    }
+
+    .description {
+        text-align: center;
+        padding-left: 0px;
+    }
+
+    .total_NFT_wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .social_links_wrapper {
+        flex-direction: column;
+        margin: 0px;
+        margin-top: 10px;
+    }
+
+    .social_links {
+        padding: 10px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) {
+    .hero_image_wrapper {
+        order: 1;
+        min-width: 450px;
+        max-width: 600px;
+    }
+
+    .description_wrapper {
+        order: 2;
+    }
+
+    .main_header {
+        padding-top: 20px;
+    }
+}

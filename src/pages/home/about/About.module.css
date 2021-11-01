@@ -1,0 +1,113 @@
+.hero_wrapper {
+    margin-top: 60px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero_section_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description_wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 25px;
+}
+
+.hero_image_wrapper {
+    min-width: 500px;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero_image_wrapper > img {
+    width: 100%;
+}
+
+.main_header {
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 900 !important;
+    padding-left: 10px;
+}
+
+.sub_header {
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 900 !important;
+    padding-left: 10px;
+}
+
+.loved_by_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.loved_by_item_wrapper {
+    min-width: 50px;
+    max-width: 150px;
+    background-color: #ffffff;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 4px solid #130831;
+}
+
+.loved_by_item_wrapper > img {
+    width: 100%;
+}
+
+.description {
+    color: #ffffff;
+    font-weight: 300;
+    padding-left: 10px;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 767px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .description_wrapper {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 10px;
+    }
+
+    .loved_by_wrapper {
+        padding-bottom: 25px;
+    }
+
+    .hero_image_wrapper {
+        min-width: 300px;
+        max-width: 600px;
+        padding-top: 20px;
+    }
+
+    .hero_wrapper {
+        margin-top: 20px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) {
+    .hero_image_wrapper {
+        min-width: 400px;
+        max-width: 600px;
+        padding-top: 50px;
+    }
+}

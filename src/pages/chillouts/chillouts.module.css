@@ -1,0 +1,25 @@
+.chillouts_wrapper {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chillouts_section_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chillouts_comming_soon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_header {
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: bold;
+}

@@ -1,0 +1,131 @@
+.roadmap_wrapper {
+    padding-top: 35px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.roadmap_section_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.roadmap_item {
+    padding: 10px 50px;
+    border: 2px solid #2f2350;
+    background-color: #241747;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.roadmap_item_image_wrapper {
+    min-width: 50px;
+    max-width: 100px;
+}
+
+.roadmap_item_image_wrapper > img {
+    width: 100%;
+}
+
+.roadmap_item_description, .roadmap_item_tag {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 500 !important;
+    padding: 0px 40px;
+    line-height: 25px;
+}
+
+.roadmap_item_heading {
+    font-size: 18px;
+}
+
+.marketplace_buy_button {
+    padding: 8px;
+    background-color: #312771;
+    border: 2px solid #474071;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight:500;
+    margin: 10px 5px;
+}
+
+.marketplace_buy_button:hover {
+    color: #d14c84;
+}
+
+.title_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_header {
+    font-size: 35px;
+    color: #ffffff;
+    font-weight: 700 !important;
+}
+
+.main_description {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 500 !important;
+    padding-top: 10px;
+    padding: 0px 250px;
+    text-align: center;
+    line-height: 25px;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 767px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .roadmap_item {
+        flex-direction: column;
+        padding: 10px 10px;
+    }
+
+    .roadmap_item_description {
+        padding: 0px 25px;
+        text-align: center;
+    }
+
+    .roadmap_item_image_wrapper {
+        min-width: 50px;
+        max-width: 175px;
+        padding-bottom: 25px;
+    }
+
+    .roadmap_item_tag {
+        display: flex;
+        padding: 0px 25px;
+        justify-content: center;
+    }
+
+    .main_description {
+        padding-top: 10px;
+        padding: 0px 10px;
+        text-align: center;
+    }
+}
+
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) {
+    .main_description {
+        padding-top: 10px;
+        padding: 0px 10px;
+        text-align: center;
+    }
+}

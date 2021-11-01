@@ -5,11 +5,17 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
+import { Web3Provider } from './context/web3-context';
+import ScrollToTop from './components/scroll-to-top/scroll-to-top';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter basename={window.location.pathname || ''}>
-      <App />
+    <BrowserRouter basename='/'>
+      <ScrollToTop>
+        <Web3Provider>
+          <App />
+        </Web3Provider>
+      </ScrollToTop>
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')

@@ -1,3 +1,13 @@
 .app {
   height: 100vh;
 }
+
+.header {
+  height: 8%;
+}
+::-webkit-scrollbar {display:none;}
+
+.body {
+  height: 92%;
+  overflow-y: scroll;
+}

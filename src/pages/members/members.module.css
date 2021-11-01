@@ -1,0 +1,244 @@
+.member_wrapper {
+    margin-top: 60px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.member_section_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.benifits_header_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+.description_wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 25px;
+}
+
+.member_image_wrapper {
+    min-width: 500px;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.member_image_wrapper > img {
+    width: 100%;
+}
+
+.main_header {
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 900 !important;
+    padding-left: 10px;
+}
+
+.sub_header {
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 900 !important;
+    padding-left: 10px;
+}
+
+.loved_by_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.loved_by_item_wrapper {
+    min-width: 50px;
+    max-width: 200px;
+}
+
+.loved_by_item_wrapper > img {
+    width: 100%;
+}
+
+.description {
+    color: #ffffff;
+    padding-left: 10px;
+}
+
+.progress_wrapper {
+    padding: 10px;
+}
+
+.progress {
+    height: 10px !important;
+    display: flex;
+    height: 10px;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: 25px;
+}
+
+.progress_stats {
+    color: #ffffff;
+    padding-top: 10px;
+}
+
+.benefits_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.benefits_card {
+    background-color: #241e47;
+    border: 2px solid #2f2350;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.main_header {
+    font-size: 35px;
+    color: #ffffff;
+    font-weight: 700 !important;
+}
+
+.marketplace_buy_button {
+    padding: 8px;
+    background-color: #312771;
+    border: 2px solid #474071;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight:500;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.marketplace_buy_button:hover {
+    color: #d14c84;
+}
+
+.benefits_button_wrapper {
+    width: 100%;
+}
+
+.benefits_card_header_wrapper {
+    border-bottom: 3px solid #ffffff;
+    padding-top: 20px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.benefits_card_header {
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.benefits_card_comming_soon_wrapper {
+    padding: 200px 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.benefits_card_comming_soon_header {
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.title_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.holdings_wrapper {
+    display: flex;
+    align-items: center;
+    margin-left:10px;
+    margin-top: 20px;
+    color: #ffffff;
+    border: 2px solid #2f2350;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #241747;
+}
+
+.holdings {
+    display: flex;
+    gap: 10px;
+    padding-left: 15px;
+    font-weight: bold;
+}
+
+.holdings_heading {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 767px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .description_wrapper {
+        order: 2;
+        padding-left: 0px;
+    }
+    
+    .main_header {
+        font-size: 25px;
+        padding-top: 25px;
+    }
+
+    .member_image_wrapper {
+        min-width: 350px;
+        max-width: 500px;
+        order: 1;
+    }
+
+    .benifits_header_wrapper {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) {
+    .member_image_wrapper {
+        min-width: 150px;
+        max-width: 580px;
+        order: 1;
+    }
+
+    .description_wrapper {
+        order: 2;
+        padding-left: 0px;
+    }
+
+    .main_header {
+        padding-top: 50px;
+    }
+
+}
